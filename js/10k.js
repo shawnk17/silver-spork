@@ -15,24 +15,24 @@ outputArea = document.querySelector("#output"),
 
 firstNames = [
     " ",
-    "Jen",
+    "Jean",
     "Shawn",
-    "Mike",
+    "Nick",
     "Lisa",
     "Shannon",
     "Jeb",
-    "Carson",
+    "Carol",
     "Sarah"
 ],
 
 lastNames = [
     " ",
-    "Bentonting",
+    "Bententing",
     "Jones",
     "Smith",
     "Miller",
     "Johnson",
-    "Mouse",
+    "Mooss",
     "Bush"
 ],
 
@@ -40,7 +40,7 @@ emailProviders = [
     " ",
     "@gmail.com",
     "@yahoo.com",
-    "@mail.com",
+    "@msn.com",
     "@hotmail.com",
     "@aol.com"
 ],
