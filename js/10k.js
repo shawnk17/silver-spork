@@ -27,13 +27,13 @@ firstNames = [
 
 lastNames = [
     " ",
-    "bob",
+    "Bentonting",
     "Jones",
     "Smith",
     "Miller",
     "Johnson",
-    "Wentz",
-    "Dawkins"
+    "Mouse",
+    "Bush"
 ],
 
 emailProviders = [
@@ -55,7 +55,7 @@ renderPeopleList();
 });
 
 function addPerson(){
-for(var i=0; i < 100; i++){
+for(var i=0; i < 1000; i++){
     var firstName = firstNames[numRandom(firstNames.length - 1)],
         lastName = lastNames[numRandom(lastNames.length - 1)],
         email = emailProviders[numRandom(emailProviders.length - 1)];
@@ -69,7 +69,7 @@ function renderPeopleList(){
 output.innerHTML = "";
 output.innerHTML += "<h3>People List</h3>";
 var resultText = "";
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 1000; i++) {
     // output.innerHTML += "<p>" + people[i].id + ": <strong>Name: </strong>" + people[i].firstName + " " + people[i].lastName + " (<strong>Email: </strong>" + people[i].createEmailAddress() + ")</p>";
     resultText += "<p>" + people[i].id + ": <strong>Name: </strong>" + people[i].firstName + " " + people[i].lastName + " (<strong>Email: </strong>" + people[i].createEmailAddress() + ")</p>";
 }
