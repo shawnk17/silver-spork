@@ -14,7 +14,7 @@ totalArea.innerHTML = "<h2>Total Rolled So Far: " + totalRolled + "</h2>Current 
 
 startOverButton.addEventListener("click", function(){
 displayArea.innerHTML = " ";
-totalArea.innerHTML = "<h2>Total Rolled So Far: 0</h2>";
+totalArea.innerHTML = "<h3>Total Rolled So Far: 0</h3>";
 totalRolled = 0;
 });
 
@@ -22,15 +22,6 @@ var getRandomNumber = function getRandomNumber(min, max){
 min = Math.ceil(min);
 max = Math.floor(max);
 var shawn = Math.random();
-
-console.log(min);
-console.log(max);
-console.log(shawn);
-console.log(max - min);
-console.log(max - min + 1);
-console.log(shawn * (max - min + 1));
-console.log(shawn * (max - min + 1) + min);
-console.log(Math.floor(shawn * (max - min + 1) + min));
 
 return Math.floor(shawn * (max - min + 1) + min);
 }
